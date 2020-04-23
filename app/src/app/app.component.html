@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="./././submitter" method="POST" onsubmit="this.elements['TIMESTAMP'].value= new Date()">
+    <label for='age'> Age </label>
+    <fieldset id="age"> 
+        <label for="1">0-9</label>
+        <input type="radio" value="0-9" name="age" id="1">
+        <label for="2">10-18</label>
+        <input type="radio" value="10-18" name="age" id="2">
+        <label for="3">18-25</label>
+        <input type="radio" value="18-25" name="age" id="3">
+        <label for="4">26-40</label>
+        <input type="radio" value="26-40" name="age" id="4">
+        <label for="5">40+</label>
+        <input type="radio" value="40+" name="age" id="5">
+      </fieldset>
+    
+      <label for='country'> Country </label>
+      <fieldset id="country">
+        <label for='1'>Canada</label>
+        <input type="radio" value="Canada" name="country" id='1'>
+        <label for='2'>Indonesia</label>
+        <input type="radio" value="Indonesia" name="country" id='2'>
+        <label for='3'>Japan</label>
+        <input type="radio" value="Japan" name="country" id='3'>
+        <label for='4'>Thailand</label>
+        <input type="radio" value="Thailand" name="country" id='4'>
+        <label for='5'>Palestine</label>
+        <input type="radio" value="Palestine" name="country" id='5'>
+      </fieldset>
+      <input name="TIMESTAMP" type="hidden">
+    <input type="submit" value="Submit">
+ </form>
+
+
+ </script>
+
+ </body>
+ </html>
